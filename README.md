@@ -6,17 +6,13 @@ Code by Quincy
 
 ## Build Setup
 
-``` bash
-# install dependencies
-npm install
+``` 
+# 安装依赖项
+npm install --registry=https://registry.npm.taobao.org
 
-# serve with hot reload at localhost:8080
+# 开发模式 localhost:8001
 npm run dev
 
-# build for production with minification
+# 打包项目
 npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
-
