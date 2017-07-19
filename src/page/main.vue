@@ -11,14 +11,14 @@
         </div>
         <div class="nav">
           <div class="navtop">
-            <li class="item">weibo</li>
-            <li class="item">wechat</li>
-            <li class="item">twitter</li>
-            <li class="item">facebook</li>
-            <li class="item last">youku</li>
+            <li class="item">Weibo</li>
+            <li class="item">Wechat</li>
+            <li class="item">Twitter</li>
+            <li class="item">Facebook</li>
+            <li class="item last">Youku</li>
             <div class="lang">
-              <span class="e">En</span>
-              <span class="c">中文</span>
+              <span class="e">中文</span>
+              <span class="c">En</span>
             </div>
           </div>
           <li class="navList animated fadeInLeftBig" v-for="l in mainNavData" :key="l" v-show="webwid>1400">
@@ -145,7 +145,7 @@ export default {
       ],
       mainNavData: [
         {
-          title: 'about yuren',
+          title: '育人',
           mainImg: require('@/assets/main/1.jpg'),
           subnav: [
             {
@@ -155,7 +155,7 @@ export default {
           ]
         },
         {
-          title: 'living today',
+          title: '入学',
           mainImg: require('@/assets/main/2.jpg'),
           subnav: [
             'a',
@@ -163,7 +163,7 @@ export default {
           ]
         },
         {
-          title: 'champion',
+          title: '课程',
           mainImg: require('@/assets/main/3.jpg'),
           subnav: [
             'a',
@@ -172,7 +172,7 @@ export default {
           ]
         },
         {
-          title: 'complicated',
+          title: '升学',
           mainImg: require('@/assets/main/4.jpg'),
           subnav: [
             'a',
@@ -181,7 +181,7 @@ export default {
           ]
         },
         {
-          title: 'innocence',
+          title: '学生生活',
           mainImg: require('@/assets/main/5.jpg'),
           subnav: [
             'a',
@@ -190,7 +190,7 @@ export default {
           ]
         },
         {
-          title: 'born alone',
+          title: '新闻',
           mainImg: require('@/assets/main/6.jpg'),
           subnav: [
             'a',
@@ -378,7 +378,7 @@ export default {
       display: inline-block;
       padding: 20px;
       img {
-        width: 150px;
+        width: 300px;
       }
     }
     .nav {
@@ -387,6 +387,7 @@ export default {
       width: calc(~"100% - 200px");
       position: absolute;
       top: 0;
+      left:150px;
       .navtop {
         padding: 25px;
         list-style: none;
