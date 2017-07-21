@@ -13,6 +13,9 @@ npm install --registry=https://registry.npm.taobao.org
 # 开发模式 localhost:8001
 npm run dev
 
+#推荐使用forever
+npm start
+
 # 打包项目
 npm run build
 ```

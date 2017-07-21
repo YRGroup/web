@@ -111,7 +111,7 @@
   
       </div>
     </section>
-
+  
     <section class="footer">
       <div class="info">
         <div class="item" v-for="i in 4" :key="i">
@@ -960,15 +960,15 @@ export default {
         position: absolute;
         top: -5px;
       }
-      .before{
+      .before {
         position: absolute;
-        left:-50px;
-        top:-11px;
+        left: -50px;
+        top: -11px;
       }
-      .after{
+      .after {
         position: absolute;
-        top:-11px;
-        right:-50px;
+        top: -11px;
+        right: -50px;
       }
     }
     audio {
@@ -978,50 +978,49 @@ export default {
   }
 }
 
-.footer{
-    color:#fff;
-  .info{
-    width:100%;
+.footer {
+  color: #fff;
+  .info {
+    width: 100%;
     background: @C1;
-    padding:20px 0;
-    height:300px;
+    padding: 20px 0;
+    height: 300px;
     position: relative;
-    .item{
+    .item {
       display: inline-block;
-      width:25%;
+      width: 25%;
       text-align: center;
-      .title{
+      .title {
         line-height: 100px;
         font-size: 30px;
       }
-      &:after{
+      &:after {
         content: "";
         display: block;
-        width:1px;
-        height:140px;
+        width: 1px;
+        height: 140px;
         background: #fff;
         position: absolute;
-        top:120px;
+        top: 120px;
       }
     }
-    .item:first-child{
-      &:after{
+    .item:first-child {
+      &:after {
         display: none;
       }
     }
   }
-  .end{
+  .end {
     background: @C2;
     height: 40px;
     line-height: 40px;
-    padding:0 30px;
-    .left{
+    padding: 0 30px;
+    .left {
       float: left;
     }
-    .right{
+    .right {
       float: right;
     }
   }
 }
-
 </style>
